@@ -6,7 +6,8 @@ public class PalindromeString {
 
 	public static void main(String[] args) {
 
-		// Palindrome or Reverse a String
+		//Java Program to check if a String is Palindrome or not
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please enter a String");
 		String str = sc.nextLine();
@@ -19,7 +20,7 @@ public class PalindromeString {
 			reversedStr = reversedStr + str.charAt(i);
 		}
 
-		System.out.println("reversedStr = " + reversedStr);
+		System.out.println("ReversedStr = " + reversedStr);
 
 		if(reversedStr.equals(str)) 
 			System.out.println(str + " is a Palindrome String");

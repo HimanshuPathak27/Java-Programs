@@ -1,12 +1,18 @@
 package com.practice.codes;
 
+import java.util.Scanner;
+
 public class PrimeNumber {
 
 	public static void main(String[] args) {
-		
-		//Verify if a Number is prime or not
-		
-		int num = 71;
+
+		//Java Program to verify if a Number is prime or not
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number");
+		int num = sc.nextInt();
+		sc.close();
+
 		boolean isPrime = true;
 		int temp = num;
 
